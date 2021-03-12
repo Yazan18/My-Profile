@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+        background-color: gold;
+        color: #000;
+}
+
+.mauos_select ::selection{
+    background-color: #000;
+    color: gold;
+}
+
+body {
+    background-color: #1b1e21 !important;
+}
+
+.bold_font {
+    font-weight: bold !important;
+    color: gold !important;
+}
+
+
+
+
+.float_right {
+    float: right !important;
+}
+
+                          /* nav start                              */
+
+.nav_color {
+    background-color: #212529 ;
+
+}
+
+.nav_index{
+    position: fixed !important; 
+    z-index: 1 !important;
+    width: 100% !important;
+}
+
+.name_logo {
+    font-size: 24px !important;
+}
+
+.dropdown-menu{
+    background-color: #212529 !important;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #333a41 !important;
+    
+}
+
+/*                           nav end                              */
+
+/*                           hero start                              */
+
+#hero_div {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+
+    width: 100%;
+    height: 660px;
+    background-image: url(../img/bac_screen.jpg);
+
+}
+
+.span_hero{
+     color: gold;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+     margin-top: 270px;
+}
+
+/*                           hero end                              */
+
+/*                           about start                              */
+
+#div_about{
+    border-radius: 10px;
+    width: 240px;
+    height: 120px;
+    
+    background-color: #fbd00a;
+}
+
+#div_about h1{
+    line-height: 120px;
+    color: #1b1e21;
+}
+
+.about {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    width: 60% !important;
+    border-radius: 20px !important;
+    padding-bottom: 280px;
+}
+.about p{
+    margin: 10px 0 !important;
+}
+
+/*                           about end                              */
+
+#div_Portfolio{
+    height: 110px;
+    margin-top: 100px;
+}
+
+/*                           skille start                              */
+
+#div_skill{
+     height: 110px;
+     margin-top: 100px;
+}
+.col .card_edit{
+    background-color: #1b1e21; 
+    color: gold;
+    border: 1px gold solid;
+}
+
+#skill{
+    color: wheat;
+    width: 240px;
+    height: 150px;
+    background-color: #fbd00a;
+    border-radius: 10px;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+#skill h1{
+    line-height: 150px;
+    color: #1b1e21;
+}
+
+/*                           skille end                              */
+
+
+/*                           card start                              */
+
+.card_img {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*                           card end                              */
+
+/*                           go up img start                              */
+
+#go_up{
+    display: none;
+    cursor: pointer;
+}
+
+#up_img{
+    width: 55px;
+    height: 55px;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 1px; 
+    left: 93%; 
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/*                           go up img end                              */
+
+/*                           contact start                              */
+
+#map{
+    margin-top: 10px  !important;
+    margin: auto;
+    width:100% ;
+    height: 450px;
+}
+
+
+.bold_font {
+    font-weight: bold !important;
+    color: gold !important;
+}
+
+#div_contact{
+    height: 100px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#contact{ 
+
+    width: 240px;
+    height: 150px;
+    background-color: #fbd00a;
+    border-radius: 10px;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin-bottom: 20px;
+}
+
+#contact h1{
+    line-height: 150px;
+    color: #1b1e21;
+}
+
+/*                           contact end                              */
+
+/*                           footer start                              */
+
+.footer_text{
+    color: gold !important;
+    text-decoration: none;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/*                           footer end                              */
+
+/*                           medic screen start                              */
+@media only screen and (max-width:375px) and (min-width:0px){
+    #logo_img{
+        display: none;
+    }
+    #hero_div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        height: 570px;
+    }
+    .span_hero{
+        margin-top: 140px !important;
+        padding: 0 !important;
+
+    }
+
+}
+
+@media only screen and (min-width:376px) and (max-width:500px){
+    #hero_div{
+        height: 570px !important;
+    }
+    .span_hero{
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:675px){
+    .span_hero{
+        margin-top: 180px;
+    }
+}
+
+/* @media only screen and (min-height:570px) and (max-height:823px){
+    #hero_div{
+        height: 600px !important;
+    }
+} */
+
+/* @media only screen and (min-height:600px) and (max-height:830px){
+    #hero_div{
+        height: 660px !important;
+    }
+} */
+
+
+@media only screen and (max-width:991px){
+    .dropdown-menu{
+        background-color: #333a41 !important;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:790px){
+    #up_img{
+        width: 30px !important;
+        height: 30px !important;
+        left: 83% !important;
+        bottom: 8px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+/*                           medic screen end                              */
