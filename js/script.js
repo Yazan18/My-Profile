@@ -8,7 +8,7 @@ var go_up = document.getElementById("go_up");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     go_up.style.display = "block";
   } else {
     go_up.style.display = "none";
