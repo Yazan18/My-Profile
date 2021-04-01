@@ -277,8 +277,8 @@ body {
 
 @media only screen and (min-width:300px) and (max-width:790px){
     #up_img{
-        width: 30px !important;
-        height: 30px !important;
+        width: 50px !important;
+        height: 50px !important;
         left: 83% !important;
         bottom: 8px !important;
         margin: 0 !important;
