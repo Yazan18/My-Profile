@@ -130,7 +130,7 @@ function setLanugage(getLanuage){
         About.innerHTML = "حول";
         About.style.lineHeight = "120px";
         Ap1_t.innerHTML = "انا يزن من سوريا";
-        Ap2_t.innerHTML = "أنا أحب المبرمج منذ طفولتي";
+        Ap2_t.innerHTML = "أنا أحب البرمجة منذ طفولتي";
         Ap3_t.innerHTML = "أنا مطور الواجهة الأمامية للمواقع";
         Ap4_t.innerHTML = "وأنا أجتهد لتطوير خبراتي ومهاراتي كل يوم";
         // about translate end

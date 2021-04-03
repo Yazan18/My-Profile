@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gold;
+    border-radius: 3px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 ::selection{
         background-color: gold;
         color: #000;
@@ -105,6 +118,12 @@ body {
 }
 .about p{
     margin: 10px 0 !important;
+    
+}
+
+.about:hover{
+    box-shadow: 0px 0px 9px 4px gold;
+    transition: 0.3s ease-out;
 }
 
 /*                           about end                              */
@@ -124,6 +143,24 @@ body {
     background-color: #1b1e21; 
     color: gold;
     border: 1px gold solid;
+}
+
+.col_hover:hover{
+    padding: 5px;
+    transition: 0.3s ease-out;
+}
+
+.card_edit:hover{
+    box-shadow: 0px 0px 9px 2px gold;
+    transition: 0.3s ease-out;
+}
+
+
+.col_hover, .col_hover:before, .col_hover:after {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 #skill{
@@ -280,7 +317,7 @@ body {
         width: 50px !important;
         height: 50px !important;
         left: 83% !important;
-        bottom: 10px !important;
+        bottom: 8px !important;
         margin: 0 !important;
         padding: 0 !important;
     }
