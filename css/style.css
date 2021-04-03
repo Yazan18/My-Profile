@@ -270,11 +270,11 @@ body {
         grid-template-columns: repeat(1,1fr) !important;
         height: 570px;
     }
-    .span_hero{
+/*     .span_hero{
         margin-top: 140px !important;
         padding: 0 !important;
 
-    }
+    } */
 
 }
 
@@ -282,9 +282,9 @@ body {
     #hero_div{
         height: 570px !important;
     }
-    .span_hero{
+/*     .span_hero{
         margin-top: 150px;
-    }
+    } */
 }
 
 @media only screen and (min-width:501px) and (max-width:675px){
