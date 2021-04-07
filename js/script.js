@@ -116,7 +116,7 @@ function setLanugage(getLanuage){
         skill.innerHTML = "مهاراتي";
         portfolio.innerHTML = "اعمالي";
         contact.innerHTML = "تواصل";
-        language.innerHTML = "لفة ";
+        language.innerHTML = "لغة ";
         socialMedia.innerHTML = "وسائل التواصل الاجتماعي";
         fasebook.innerHTML = "فيسبوك";
         instgram.innerHTML = "انستغرام";
