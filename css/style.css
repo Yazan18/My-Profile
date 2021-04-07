@@ -42,7 +42,7 @@ body {
     float: right !important;
 }
 
-                          /* nav start                              */
+/*                               nav start                              */
 
 .nav_color {
     background-color: #212529 ;
@@ -73,8 +73,8 @@ body {
 /*                           hero start                              */
 
 #hero_div {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
 
 
     width: 100%;
@@ -156,12 +156,12 @@ body {
 }
 
 
-.col_hover, .col_hover:before, .col_hover:after {
+/* .col_hover, .col_hover:before, .col_hover:after {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-}
+} */
 
 #skill{
     color: wheat;
@@ -176,6 +176,10 @@ body {
 #skill h1{
     line-height: 150px;
     color: #1b1e21;
+}
+
+.bold_font_bar{
+    font-weight: bold;
 }
 
 /*                           skille end                              */
@@ -193,11 +197,12 @@ body {
 /*                           go up img start                              */
 
 #go_up{
-    display: none;
+    /* display: none; */
     cursor: pointer;
+    
 }
 
-#up_img{
+#go_up #up_img{
     width: 55px;
     height: 55px;
     position: fixed; 
@@ -206,6 +211,9 @@ body {
     left: 93%; 
     border-radius: 50%;
     margin-bottom: 30px;
+
+    opacity: 0;
+    transition: 0.3s ease-out;
 }
 
 /*                           go up img end                              */
@@ -217,12 +225,6 @@ body {
     margin: auto;
     width:100% ;
     height: 450px;
-}
-
-
-.bold_font {
-    font-weight: bold !important;
-    color: gold !important;
 }
 
 #div_contact{
