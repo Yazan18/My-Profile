@@ -181,7 +181,7 @@ function setLanugage(getLanuage){
         language.innerHTML = "Language ";
         socialMedia.innerHTML = "Social Media";
         fasebook.innerHTML = "Fasebook";
-        instgram.innerHTML = "Fnstgram";
+        instgram.innerHTML = "Instgram";
         youtube.innerHTML = "Youtube";
         // nav bar translate end
 
